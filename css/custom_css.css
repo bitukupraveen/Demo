@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.post img{ width:100%; height:100%;}
+.post p{  padding: 0 1em;}
+.post h3{  padding:0 5px;}
+.post.alert-box {
+margin: 0.5em 0;
+padding: 1em 0 1em;
+}
+
+.msg-type-box input[type="text"] { width:99%;} 
+.user_comment{ margin:5px 0px;}
+.user_comment .timer-info p {
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0px;
+}
+.user_comment .timer-info .t-name { font-size:1.1em;}
+.user_comment .timer-info {
+font-size: 1.1em;
+padding: 0em 1em 0 0;
+margin-bottom: 0.5em;
+}
+.custom_dropdow a.cog i { font-size: 1em;}
+.custom_dropdow.simple-dropdow ul li.s-menu { padding:0.2em 0.5em; width:auto;}
+.custom_dropdow.simple-dropdow ul li:hover ul.drop-sub {
+top: 1.5em;
+z-index:9;
+width: 100px;
+}
+.custom_dropdow.simple-dropdow ul li ul li a{
+    padding: 0.1em 0.3em;
+}
+.post_user{ margin-bottom:0.5em}
+.post_user .timer-info{ padding:0 1em;}
+
+.get-in-touch-text-box:hover input[type="password"], .get-in-touch-text-box textarea:hover {
+border: 1px solid #E64C65;
+}
+.get-in-touch-text-box input[type="password"], .get-in-touch-text-box textarea {
+border: 1px solid #D7DEE2;
+font-family: 'Raleway-SemiBold';
+padding: 0.6em 0.9em;
+color: #4A545A;
+width: 92%;
+font-size: 0.875em;
+outline: none;
+transition: border-color 0.3s;
+-o-transition: border-color 0.3s;
+-ms-transition: border-color 0.3s;
+-moz-transition: border-color 0.3s;
+-webkit-transition: border-color 0.3s;
+-webkit-appearance: none;
+}
+.custom_profile1{
+    padding: 0 0 1em 0;
+}
+.custom_profile1 img{ height:100%; width:100%;}
